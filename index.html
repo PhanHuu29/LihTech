@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="theme-color" content="#0B1F52" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="LihTech by LihLabs – cài đặt phần mềm hợp pháp, xử lý lỗi và IT Support từ xa cho cá nhân, văn phòng, doanh nghiệp." />
+    <title>LihTech by LihLabs – Giải pháp phần mềm & IT Support</title>
+    <script>
+      try {
+        const savedTheme = localStorage.getItem('lihtech.theme');
+        const theme = savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#071126' : '#eef2f8');
+        document.documentElement.lang = localStorage.getItem('lihtech.language') === 'en' ? 'en' : 'vi';
+      } catch (_) {}
+    </script>
+  </head>
+  <body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body>
+</html>
