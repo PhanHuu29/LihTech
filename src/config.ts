@@ -19,8 +19,7 @@ export const CONFIG = {
   // [1] API NHẬN ĐƠN: dán URL Ứng dụng web từ hộp triển khai Google Apps Script.
   // Mẫu: https://script.google.com/macros/s/DEPLOYMENT_ID_CUA_BAN/exec
   // Không dán link bảng tính, link /dev, link /macros/echo hay API key vào đây.
-  sheetScriptUrl: 'https://script.google.com/macros/s/AKfycbwNSnefgqZ0q8WSaNYNSzjFe1RifxT0YscvCsCHLplLwhidoTi5XxH0kP3vr-knU_imEA/exec',
-
+  sheetScriptUrl: 'https://script.google.com/macros/s/AKfycbxWMnczwFk5k6TBbMS21R8SY5w0hujFQH1-jhSeAlNY4ouMx4Yn-I4SUb2hK3dQT04V/exec',
   // [2] LINK GOOGLE SHEET: dán đường dẫn đầy đủ của bảng tính cá nhân.
   // Mẫu: https://docs.google.com/spreadsheets/d/ID_SHEET_CUA_BAN/edit
   sheetUrl: 'https://docs.google.com/spreadsheets/d/1nw9lZJPmc1eJ33v_hBlNVruvgOD9_vjldQM_ut5X08w/edit',
