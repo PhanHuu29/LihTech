@@ -72,7 +72,6 @@ export default function Home() {
         <div className="hero-brand-card glass liquid-surface" aria-label={tr('Nhận diện thương hiệu LihTech', 'LihTech brand identity')}>
           <div className="hero-card-top"><span>{tr('LIHTECH REMOTE DESK', 'LIHTECH REMOTE DESK')}</span><span className="hero-online"><i />{tr('Sẵn sàng hỗ trợ', 'Support ready')}</span></div>
           <div className="hero-mark-orbit"><span className="orbit orbit-one" /><span className="orbit orbit-two" /><Img k="logoSquare" className="hero-mark" alt="LihTech by LihLabs" /></div>
-          <div className="hero-wordmark" aria-hidden="true"><strong>{CONFIG.brand}</strong><span>{CONFIG.byline}</span></div>
           <div className="hero-card-grid">
             <div><small>{tr('TRỌNG TÂM', 'FOCUS')}</small><b>{tr('Windows · Office · IT', 'Windows · Office · IT')}</b></div>
             <div><small>{tr('HÌNH THỨC', 'FORMAT')}</small><b>{tr('Từ xa · Có lịch hẹn', 'Remote · Scheduled')}</b></div>
